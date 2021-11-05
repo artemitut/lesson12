@@ -27,6 +27,7 @@ body{
     background-color: #3ab19b;
     float: right;
     border-radius: 0px 20px 20px 0px ;
+    text-align: center;
 }
 .firsth2{
     font-family: Montserrat;
@@ -90,16 +91,82 @@ body{
 }
 #emeil{
     width: 292px;
-    height: 48px;
+    height: 18px;
     background-color: #f0f4f3;
-    border: 2.5px solid #697a79;
+    border: 0px solid #697a79;
     border-radius: 4px;
+    margin: 8px 8px;
+    padding: 16px 12px;
 }
 #phone{
     width: 292px;
-    height: 48px;
+    height: 18px;
     background-color: #f0f4f3;
-    border: 2.5px solid #697a79;
+    border: 0px solid #697a79;
     border-radius: 4px;
+    margin: 8px 8px;
+    padding: 16px 12px;
 }
-
+.text2contact{
+    font-family: Montserrat;
+    color: #697a79;
+}
+#message{
+    width: 295px;
+    height: 86px;
+}
+.a4{
+    text-decoration: none;
+    color: #697a79;
+    font-size: 20px;
+}
+.a4::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px
+    dashed currentColor;
+    opacity: 0.4;
+}
+.button1{
+    margin: 32px 32px;
+    width: 193px;
+    padding: 14px 30px;
+    border-radius: 30px;
+    background-color: #3ab19b;
+    color: white;
+    border: 1px solid white;
+}
+.button1:hover{
+    -webkit-box-shadow: 0px 0px 13px 12px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 13px 12px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 13px 12px rgba(34, 60, 80, 0.2);
+    
+}
+.hellowuser{
+    text-align: center;
+}
+.hellowtext{
+    font-family: Montserrat;
+    color: white;
+}
+.textforuser{
+    font-family: Montserrat;
+    color: white;
+}
+.button2{
+    margin: 32px 32px;
+    width: 193px;
+    padding: 14px 30px;
+    border-radius: 30px;
+    background-color: #3ab19b;
+    color: white;
+    border: 1px solid white;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+.d::before{
+    content: "\f30a";
+}
