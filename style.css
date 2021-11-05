@@ -1,0 +1,105 @@
+body{
+    background-color: #697a79;
+}
+.all{
+    width: 902px;
+    height: 1365px;
+    margin: auto;
+}
+.conteiner{
+    margin: 0 auto;
+}
+.contact{
+    padding: 32px 16px;
+    width:  457px;
+    height: 643px;
+    position: relative;
+    left: 4px;
+    float: left;
+    background-color: #ffffff;
+    border-radius: 20px 0px 0px 20px;
+    text-align: center;
+}
+.hellowuser{
+    padding: 32px 16px;
+    width: 377px;
+    height: 643px;
+    background-color: #3ab19b;
+    float: right;
+    border-radius: 0px 20px 20px 0px ;
+}
+.firsth2{
+    font-family: Montserrat;
+    font-weight: medium;
+    color: #697a79;
+}
+.f{
+    width: 50px;
+    height: 50px;
+    margin: 16px 16px;
+    border-radius: 50px;
+    border: 1px solid #697a79;
+    display: inline-block;
+    text-align: center;
+    font-weight: 900;
+    line-height: 50px;
+    text-decoration: none;
+    color: #697a79;
+}
+.t{
+    width: 50px;
+    height: 50px;
+    margin: 16px 16px;
+    border-radius: 50px;
+    border: 1px solid #697a79;
+    display: inline-block;
+    text-align: center;
+    font-weight: 900;
+    line-height: 50px;
+    text-decoration: none;
+    color: #697a79;
+}
+.in{
+    width: 50px;
+    height: 50px;
+    margin: 16px 16px;
+    border-radius: 50px;
+    border: 1px solid #697a79;
+    display: inline-block;
+    text-align: center;
+    font-weight: 900;
+    line-height: 50px;
+    text-decoration: none;
+    color: #697a79;
+}
+.f:hover{
+    color: white;
+    background-color: #697a79;
+}
+.t:hover{
+    color: white;
+    background-color: #697a79;
+}
+.in:hover{
+    color: white;
+    background-color: #697a79;
+}
+.text1contact{
+    font-family: Montserrat;
+    color: #697a79;
+}
+#emeil{
+    width: 292px;
+    height: 48px;
+    background-color: #f0f4f3;
+    border: 2.5px solid #697a79;
+    border-radius: 4px;
+}
+#phone{
+    width: 292px;
+    height: 48px;
+    background-color: #f0f4f3;
+    border: 2.5px solid #697a79;
+    border-radius: 4px;
+}
+
